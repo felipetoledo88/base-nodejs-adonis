@@ -1,3 +1,5 @@
+Projeto Base com NodeJS e Adonis5, contendo recuperação de senha via SMTP, Layout de e-mail, Autenticação, Middleware, Perfis de Acesso e etc.
+
 # Configure .env with .env.example
 
 # Install Modules
