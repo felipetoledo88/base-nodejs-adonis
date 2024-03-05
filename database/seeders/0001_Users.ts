@@ -8,13 +8,13 @@ export default class UsersSeeder extends BaseSeeder {
             {
                 id_profile: 1,
                 name: 'Admin',
-                email: 'admin@admin',
+                email: 'admin@admin.com',
                 password: '123',
             },
             {
                 id_profile: 2,
                 name: 'Cliente',
-                email: 'cliente@cliente',
+                email: 'cliente@cliente.com',
                 password: '123',
             },
         ])
