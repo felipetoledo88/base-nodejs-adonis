@@ -44,3 +44,12 @@ SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 # Dependencies Version
 - Node Version: 18.18.0
 - Adonis Version: 5.9.0
+
+# DEVOPS:
+
+# Preparate Production Version Build 
+- npm install
+- npm run build
+- cd build
+- npm ci --production 
+- node server.js
